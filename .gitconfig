@@ -65,6 +65,9 @@
 
     amd = am --committer-date-is-author-date
 
+    dt = diff-tree --no-commit-id --name-only -r
+    dth = diff-tree --no-commit-id --name-only -r HEAD
+
 [pager]
     diff = diff-so-fancy | less --tabs=4 -RFX
     show = diff-so-fancy | less --tabs=4 -RFX
