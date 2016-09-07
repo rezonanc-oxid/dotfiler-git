@@ -15,6 +15,7 @@
     an = add -N
 
     fo = fetch origin
+    fu = fetch upstream
 
     co = checkout
     com = checkout master
